@@ -1,3 +1,19 @@
+更新环境变量
 source /etc/profile
 
+产生git的key
 ssh-keygen
+
+合并提交的代码
+git cherry-pick 4983rujoeir439r80qiei
+
+跟新版本号
+mvn versions:set -DnewVersion = 1.7.1.RELEASE && mvn versions:commit
+
+
+mvn clean deploy -Dmaven.test.skip=true
+
+
+tcpdump -i eth0 src host hostname and dst host hostname -w /tmp/aa.cap
+
+tcpdump tcp port 23 and host 210.27.48.1

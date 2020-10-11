@@ -17,3 +17,7 @@ mvn clean deploy -Dmaven.test.skip=true
 tcpdump -i eth0 src host hostname and dst host hostname -w /tmp/aa.cap
 
 tcpdump tcp port 23 and host 210.27.48.1
+
+springboot测试
+@RunWith(SpringRunner.class)
+@SpringBootTest
